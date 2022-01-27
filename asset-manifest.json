@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.c6c2334e.css",
+    "main.js": "/Portfolio/static/js/main.a1e27a4e.js",
+    "static/js/377.2bf5b29e.chunk.js": "/Portfolio/static/js/377.2bf5b29e.chunk.js",
+    "static/media/nayeem2.jpg": "/Portfolio/static/media/nayeem2.460eb8d2323a1d193bda.jpg",
+    "static/media/nayeem.jpeg": "/Portfolio/static/media/nayeem.90a044846cab7b4abe46.jpeg",
+    "static/media/mongodb-ar21.svg": "/Portfolio/static/media/mongodb-ar21.b508609b24c1a2bc58576411df58bb4b.svg",
+    "static/media/jquery-horizontal.svg": "/Portfolio/static/media/jquery-horizontal.87517b82fafe88f78518fa8258a6a738.svg",
+    "static/media/flutterio-icon.svg": "/Portfolio/static/media/flutterio-icon.6a0a2e6200396ba839c9c91a9b016eac.svg",
+    "index.html": "/Portfolio/index.html",
+    "main.c6c2334e.css.map": "/Portfolio/static/css/main.c6c2334e.css.map",
+    "main.a1e27a4e.js.map": "/Portfolio/static/js/main.a1e27a4e.js.map",
+    "377.2bf5b29e.chunk.js.map": "/Portfolio/static/js/377.2bf5b29e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6c2334e.css",
+    "static/js/main.a1e27a4e.js"
+  ]
+}
