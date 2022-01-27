@@ -1,0 +1,126 @@
+/* body{
+    background-color: #fff;
+} */
+
+.nav-container , .bg-light{
+    background-color: #303547 !important;
+}
+.nav-link a{
+    color: #dbdbdb;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif;
+    border-bottom: 4px solid #73CCA8;
+}
+
+
+
+
+
+
+
+
+
+
+.Nav{
+    position: relative;
+    display: flex;
+    box-shadow: 0 7px 20px 0 rgb(0 0 0 / 40%), 0 4px 10px 0 rgb(0 0 0 / 40%)
+}
+.Nav-links ul{
+    display: flex;
+}
+.Nav-links {
+    margin-left: auto;
+    margin-right: auto;}
+
+.Nav-logo {
+    display: flex;
+}
+
+ li{
+    color: #ffffff;
+    list-style: none;
+    padding-right: 30px;
+}
+.Nav-links a{
+    color: #dbdbdb;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif;
+    border-bottom: 4px solid #73CCA8;
+}
+@media only screen and (max-width: 321px) and (min-width: 21px) {
+    .Nav{
+    display: flex;
+    box-shadow: 0 7px 20px 0 rgb(0 0 0 / 40%), 0 4px 10px 0 rgb(0 0 0 / 40%);
+    margin-right: -140px;
+    }
+    
+}
+@media only screen and (max-width: 376px) and (min-width: 321px) {
+    .Nav{
+    display: flex;
+    box-shadow: 0 7px 20px 0 rgb(0 0 0 / 40%), 0 4px 10px 0 rgb(0 0 0 / 40%);
+    margin-right: -143px;
+    margin-left: -24px;
+    }
+    .Nav-links ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Nav-links {
+        margin-left: auto;
+        margin-right: auto;}
+    
+    .Nav-logo {
+        display: flex;
+    }
+    
+     li{
+        color: #ffffff;
+        list-style: none;
+        padding-right: 10px;
+    }
+    .Nav-links a{
+        color: #dbdbdb;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 10px;
+        font-family: 'Titillium Web', sans-serif;
+        border-bottom: 4px solid #73CCA8;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 768px) and (min-width: 425px) {
+    .Nav{
+        display: flex;
+        box-shadow: 0 7px 20px 0 rgb(0 0 0 / 40%), 0 4px 10px 0 rgb(0 0 0 / 40%)
+    }
+    .Nav-links ul{
+        display: flex;
+    }
+    .Nav-links {
+        margin-left: auto;
+        margin-right: auto;}
+    
+    .Nav-logo {
+        display: flex;
+        float: left;
+    }
+    
+     li{
+        color: #ffffff;
+        list-style: none;
+        padding-right: 10px;
+    }
+    
+   
+}

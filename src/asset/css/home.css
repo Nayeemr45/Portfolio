@@ -1,0 +1,384 @@
+body{
+    background-color: #303547;
+    font-family: 'Josefin Sans';
+    display: flex;
+    flex-direction:column;
+}
+ .image-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 50%;
+    z-index: 4;
+} 
+ .image{
+    width: 200px;
+    height: 200px;
+    background-color: #c1c5d3;
+    border-radius: 50%;
+} 
+.img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.half-circle-01{
+    position: fixed;
+    background-color: #303547;
+    clip-path: circle(100% at 50% -260%);
+    width: 100%;
+    height: 400px;
+    z-index: 1;
+}
+.half-circle-02{
+    position: fixed;
+    background-color:#c1c5d3;
+    clip-path: circle(100% at 50% -220%);
+    width: 100%;
+    height: 400px;
+    z-index: -1;
+}
+.half-circle-03{
+    position: fixed;
+    background-color:#414760;
+    clip-path: circle(100% at 50% -210%);
+    width: 100%;
+    height: 400px;
+    z-index: -2;
+}
+.half-circle-04{
+    position: fixed;
+    background-color:#73CCA8;
+    clip-path: circle(100% at 50% -209%);
+    width: 100%;
+    height: 400px;
+    z-index: -3;
+}
+
+
+h1{
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    position: fixed;
+    color: #606466;
+    font-size: 54px;
+    font-weight: 400;
+    letter-spacing: 20px;
+    text-align: center;
+    margin-top: 125px;
+} 
+h3{
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    color: #DBE8D4;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    z-index: 1;
+    margin-top: 250px;
+}
+.header {
+    font-family: 'Titillium Web', sans-serif;
+    width: 100%;
+    color: #DBE8D4;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+@keyframes circle {
+  from { transform:rotate(0deg); }
+  to { transform:rotate(360deg); }
+}
+
+@keyframes inner-circle {
+  from { transform:rotate(0deg); }
+  to { transform:rotate(-360deg); }
+}
+/* 
+.half {
+  width: 17px;
+  position: absolute;
+  height: 8px;
+  font-size: 10px;
+  line-height: 1;
+  animation: circle 5s linear infinite;
+  transform-origin: 50% 50%;
+  z-index: -3;
+  margin-left: 800px;
+} */
+/* 
+.half > div {
+  position: absolute;
+  background-color:#000;
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+
+} */
+@media only screen and (max-width: 1440px) and (min-width: 1024px) {
+    body {
+      background-color: #303547;
+    }
+
+    .half-circle-01{
+        position: absolute;
+        background-color: #303547;
+        clip-path: circle(100% at 50% -243%);
+        width: 100%;
+        height: 400px;
+        z-index: 1;
+    }
+    .half-circle-02{
+        position: absolute;
+        background-color:#c1c5d3;
+        clip-path: circle(100% at 50% -203%);
+        width: 100%;
+        height: 400px;
+        z-index: -1;
+    }
+    .half-circle-03{
+        position: absolute;
+        background-color:#414760;
+        clip-path: circle(100% at 50% -193%);
+        width: 100%;
+        height: 400px;
+        z-index: -2;
+    }
+    
+h1{
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    color: #606466;
+    font-size: 75px;
+    font-weight: 100;
+    letter-spacing: 20px;
+    text-align: center;
+    margin-top: 90px;
+} 
+h3{
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    color: #DBE8D4;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    z-index: 1;
+    margin-top: 255px;
+}
+    
+  }
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+    body {
+      background-color: #303547;
+    }
+
+    .half-circle-01{
+        position: absolute;
+        background-color: #303547;
+        clip-path: circle(100% at 50% -164%);
+        width: 100%;
+        height: 400px;
+        z-index: 1;
+    }
+    .half-circle-02{
+        position: absolute;
+        background-color:#c1c5d3;
+        clip-path: circle(100% at 50% -124%);
+        width: 100%;
+        height: 400px;
+        z-index: -1;
+    }
+    .half-circle-03{
+        position: absolute;
+        background-color:#414760;
+        clip-path: circle(100% at 50% -114%);
+        width: 100%;
+        height: 400px;
+        z-index: -2;
+    }
+    
+h1{
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    color: #606466;
+    font-size: 65px;
+    font-weight: 100;
+    letter-spacing: 20px;
+    text-align: center;
+    margin-top: 125px;
+} 
+h3{
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    color: #DBE8D4;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    z-index: 1;
+    margin-top: 290px;
+}
+    
+  }
+
+@media only screen and (max-width: 768px) and (min-width: 425px) {
+    body {
+      background-color: #303547;
+    }
+
+    .half-circle-01{
+        position: absolute;
+        background-color: #303547;
+        clip-path: circle(82.5% at 50% -116%);
+        width: 100%;
+        height: 400px;
+        z-index: 1;
+    }
+    .half-circle-02{
+        position: absolute;
+        background-color:#c1c5d3;
+        clip-path: circle(82.5% at 50% -86%);
+        width: 100%;
+        height: 400px;
+        z-index: -1;
+    }
+    .half-circle-03{
+        position: absolute;
+        background-color:#414760;
+        clip-path: circle(82.5% at 50% -76%);
+        width: 100%;
+        height: 400px;
+        z-index: -2;
+    }
+    
+h1{
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    color: #606466;
+    font-size: 38px;
+    font-weight: 300;
+    letter-spacing: 20px;
+    text-align: center;
+    margin-top: 45px;
+} 
+h3{
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    color: #DBE8D4;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    z-index: 1;
+    margin-top: 175px;
+}
+    
+  }
+
+  @media only screen and (max-width: 376px) and (min-width: 321px) {
+    body {
+      background-color: #303547;
+    }
+
+    .half-circle-01{
+      position: fixed;
+      background-color: #303547;
+      clip-path: circle(82.5% at 50% -82%);
+      width: 100%;
+      height: 400px;
+      z-index: 1;
+  }
+  
+  .half-circle-02{
+    position: fixed;
+    background-color: #c1c5d3;
+    clip-path: circle(82.5% at 50% -56%);
+    width: 100%;
+    height: 400px;
+    z-index: -1;
+
+  }
+  .half-circle-03{
+    position: fixed;
+    background-color: #414760;
+    clip-path: circle(82.5% at 50% -49%);
+    width: 100%;
+    height: 400px;
+    z-index: -2;
+  }
+  .half-circle-04{
+    position: fixed;
+    background-color: #73CCA8;
+    clip-path: circle(82.5% at 50% -48%);
+    width: 100%;
+    height: 400px;
+    z-index: -3;
+  }
+  
+h1{
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    position: fixed;
+    color: #606466;
+    font-size: 27px;
+    font-weight: 600;
+    letter-spacing: 17px;
+    text-align: center;
+    margin-top: 59px;
+    margin-left: 11px;
+    justify-content: center;
+    align-items: center;
+} 
+h3{
+  width: 100%;
+  font-family: 'Josefin Sans', sans-serif;
+  position: fixed;
+  color: #DBE8D4;
+  font-size: 11px;
+  font-weight: 400;
+  text-align: center;
+  z-index: 1;
+  margin-top: 157px;
+}
+.image-body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 28%;
+  z-index: 4;
+} 
+.image{
+  width: 200px;
+  height: 200px;
+  background-color: #c1c5d3;
+  border-radius: 50%;
+} 
+.img{
+width: 200px;
+height: 200px;
+border-radius: 50%;
+}
+.header {
+  font-family: 'Titillium Web', sans-serif;
+  width: 100%;
+  color: #DBE8D4;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  position: fixed;
+  margin: 500px auto;
+}
+
+  }

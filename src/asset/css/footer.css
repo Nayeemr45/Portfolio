@@ -1,0 +1,33 @@
+.footer {
+  color: #c1c5d3;
+  background-color: #414760;
+}
+
+.footer p {
+  font-size: 0.75rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 800;
+}
+.footer a {
+  font-size: 0.75rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 800;
+  color: #c1c5d3;
+}
+
+@media only screen and (max-width: 376px) and (min-width: 321px) {
+  .footer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1000px;
+    position: fixed;
+    height: 4rem;
+    bottom: 0;
+    color: #c1c5d3;
+    background-color: #414760;
+    z-index: 100;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+  }
+}
